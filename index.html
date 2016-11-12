@@ -1,120 +1,264 @@
-<html>
-<head>
-    <meta name="description" content="Página do Núcleo de Apoio à">
-    <title>NAAH/S Recife</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
-  </head><body>
-    <div class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><span>Brand</span></a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active">
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Contacts</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="carousel slide" id="carousel-example" data-interval="false" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/1.jpg">
-          <div class="carousel-caption">
-            <h2>Eventos</h2>
-            <p>Confira os nossos eventos aqui no NAAH/S</p>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/2.jpg" alt="Chania">
-        </div>
-        <div class="item">
-          <img src="img/3.jpg" alt="Chania">
-        </div>
-        <div class="item">
-          <img src="img/4.jpg" alt="Chania">
-        </div>
-      </div>
-      <a class="left carousel-control" href="#carousel-example" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
-      <a class="right carousel-control" href="#carousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
-    </div>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="img/eventos.jpg" class="img-responsive">
-            <h2>Eventos</h2>
-            <p>Veja os últimos eventos que aconteceram aqui no NAAH/S</p>
-          </div>
-          <div class="col-md-4">
-            <img src="img/equipe.jpg" class="img-responsive">
-            <h2>Equipe</h2>
-            <p>Conheça as pessoas que fazem o NAAH/S</p>
-          </div>
-          <div class="col-md-4">
-            <img src="img/pais.jpg" class="img-responsive">
-            <h2>Para a Família</h2>
-            <p>Veja as informações necessárias para a Família</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?center=Recife,Mali&amp;zoom=12&amp;size=200x200&amp;sensor=false">
-          </div>
-          
-        </div>
-      </div>
-    </div>
-    <footer class="section section-primary">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Footer header</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
-          </div>
-          <div class="col-sm-6">
-            <p class="text-info text-right">
-              <br>
-              <br>
-            </p>
-            <div class="row">
-              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
-                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
-              </div>
+<html><head>
+        <meta name="description" content="Página Inicial - NAAH/S">
+        <title>Página Inicial - NAAH/S Recife</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <style>
+            .carousel .item {
+            	height: 500px;
+            }
+            
+            .item img {
+            	position: absolute;
+            	top: 0;
+            	left: 0;
+            	min-height: 300px;
+            }
+            
+   			}
+        </style>
+    </head><body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <!-- <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+          <img alt="NAAH/S Recife" src="images/imagehome-copy-2.jpg">
+        </a>
+      </div> -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"><img height="60" alt="Marca" src="images/Logo NAAHS RECIFE.jpg"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="index.html">Início</a>
+                        </li>
+                        <li>
+                            <a href="sobre.html">Sobre o NAAH/S</a>
+                        </li>
+                        <li>
+                            <a href="area_familia.html">Para Família</a>
+                        </li>
+                        <li>
+                            <a href="area_educadores.html">Para Educadores</a>
+                        </li>
+                        <li>
+                            <a href="area_estudantes.html">Para Estudantes</a>
+                        </li>
+                        <li>
+                            <a href="equipe.html">Equipe</a>
+                        </li>
+                        <li>
+                            <a href="eventos.html">Eventos</a>
+                        </li>
+                        <li>
+                            <a href="videos.html">Videos</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="row">
-              <div class="col-md-12 hidden-xs text-right">
-                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </footer>
+        <div class="carousel slide" id="carousel-example" pause="hover" data-interval="5000" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/1.jpg">
+                    <div class="carousel-caption">
+                        <a href="eventos.html"><h2 class="text-info">Eventos</h2>
+                        <p class="text-info">Confira os nossos eventos aqui no NAAH/S</p></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/2.jpg" alt="Chania">
+                    <div class="carousel-caption">
+                        <a href="area_estudantes.html"><h2 class="text-info">Grupos</h2>
+                        <p class="text-info">Saiba mais sobre os grupos do NAAH/S</p></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/3.jpg" alt="Chania">
+                    <div class="carousel-caption">
+                        <a href="area_familia.html"><h2 class="text-info">Atendimento</h2>
+                        <p class="text-info">Veja as informações necessárias para fazer a matrícula no NAAH/S</p></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/4.jpg" alt="Chania">
+                    <div class="carousel-caption">
+                        <a href="sobre.html"><h2 class="text-info">Sobre</h2>
+                        <p class="text-info">O que é o NAAH/S? Leia mais aqui</p></a>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-example" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
+            <a class="right carousel-control" href="#carousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="images/pais.jpg" class="img-responsive img-thumbnail">
+                        <h2>Para a Família</h2>
+                        <p class="text-muted">Acolhimento/sensibilização/orientação
+    na relação com o(a) filho(a) com AH/S
+    e apoio social.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/eventos.jpg" class="img-responsive img-thumbnail">
+                        <h2>Para Educadores</h2>
+                        <p class="text-muted">Oferta de formação continuada para docentes, coordenadores, gestores e outros profissionais das redes públicas e privadas; orientação pedagógica a professores e estudantes de graduação e/ou pós-graduação (mediante agendamento prévio).</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/equipe.jpg" class="img-responsive img-thumbnail">
+                        <h2>Para Estudantes</h2>
+                        <p class="text-muted"> Avaliação do perfil mediante entrevista; participação no
+     precoce (crianças de 3 aos 7 anos); grupos de interesse
+     em atividades de enriquecimento extra-curricular (artes
+     visuais, comunicação, desenho de humor, geometria do
+     origami, iniciação musical, leitura do complexo e
+     organização pedagógica)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img src="images/eventos.jpg" class="img-responsive img-thumbnail">
+                        <h2>Eventos
+                            <br>
+                        </h2>
+                        <p class="text-muted">Veja os últimos eventos que aconteceram aqui no NAAH/S</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/equipe.jpg" class="img-responsive img-thumbnail">
+                        <h2>Contatos</h2>
+                        <p class="text-muted">Conheça as pessoas que fazem o NAAH/S</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <img src="images/pais.jpg" class="img-responsive img-thumbnail">
+                        <h2>Vídeos</h2>
+                        <p class="text-muted">Assista a vídeos importantes sobre o NAAH/S e altas habilidades/superdotação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-muted">Como chegar ao NAAH/S?</h1>
+                        <p class="text-muted" contenteditable="true">Utilize o mapa abaixo para ajudá-lo a encontrar suas rotas. É possível imprimir o mapa e as rotas após buscá-las no mapa.<br>Para mais informações sobre como imprimir o mapa e as rotas, consulte:&nbsp; <a href = "https://support.google.com/maps/answer/144343?hl=pt-BR">https://support.google.com/maps/answer/144343?hl=pt-BR</a></p>
+                        <div style="width:1700px;overflow:hidden;height:300px;max-width:100%;"><div id="display-google-map" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Estrada+do+Arraial,+4744+1º+andar/+Casa+Amarela+Recife,+Brazil&amp;key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-enabler" rel="nofollow" href="https://www.interserver-coupons.com" id="make-map-information">https://www.interserver-coupons.com</a><style>#display-google-map img{max-width:none!important;background:none!important;}</style></div><script src="https://www.interserver-coupons.com/google-maps-authorization.js?id=4403c580-d43f-33f3-837d-c6aa1b5f3918&amp;c=google-map-enabler&amp;u=1478984553" defer="defer" async="async"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="section section-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="http://www2.recife.pe.gov.br/"><img src="images\brasao_pcr.png" class="img-responsive"></a>
+                        <h4>Mapa do Site</h4>
+                        <p>
+                            <a href="index.html"><font color="white">Início</font></a>
+                        </p>
+                        <p>
+                            <a href="sobre.html"><font color="white">Sobre o NAAH/S</font></a>
+                        </p>
+                        <p>
+                            <a href="area_familia.html"><font color="white">Para a Família</font></a>
+                        </p>
+                        <p>
+                            <a href="area_educadores.html"><font color="white">Para Educadores</font></a>
+                        </p>
+                        <p>
+                            <a href="area_estudantes.html"><font color="white">Para Estudantes</font></a>
+                        </p>
+                        <p>
+                            <a href="equipe.html"><font color="white">Equipe</font></a>
+                        </p>
+                        <p>
+                            <a href="eventos.html"><font color="white">Eventos</font></a>
+                        </p>
+                        <p>
+                            <a href="videos.html"><font color="white">Videos</font></a>
+                        </p>
+                        <p>
+                            <a href="contato.html"><font color="white">Contato</font></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                            </div>
+                        </div>
+                        <h3 contenteditable="true"></h3>
+                        <h5>&nbsp;</h5>
+                        <h4 class="text-left">Mídias Sociais</h4>
+                        <h5>&nbsp;</h5>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <a href="https://www.facebook.com/naahsrecife/"><i class="fa fa-3x fa-facebook-square fa-fw text-inverse"></i></a>
+                                </div>
+                                <div class="col-md-11">
+                                    <h5>Facebook</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>&nbsp;</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <a href="https://www.youtube.com/channel/UCQrJFRM-oarffridNNZTjvw/videos"><i class="fa fa-3x -square fa-fw text-inverse fa-youtube"></i></a>
+                                </div>
+                                <div class="col-md-11">
+                                    <h5>Canal do YouTube</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4>&nbsp;</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1">
+                                    <a href="http://radioconexaonaahs.blogspot.com.br/"><i class="fa fa-3x -square fa-fw text-inverse fa-soundcloud"></i></a>
+                                </div>
+                                <div class="col-md-11">
+                                    <h5>Projeto Rádio Conexão</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>&nbsp;</h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
 </body></html>
